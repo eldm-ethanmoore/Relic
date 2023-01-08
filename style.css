@@ -12,3 +12,7 @@ html, body {
     font-family: "Relic";
     font-size: 48px;
 }
+
+* {
+  text-align: center;
+}
