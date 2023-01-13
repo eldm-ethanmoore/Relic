@@ -12,8 +12,13 @@
 <body>
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-24QFXMF42Y"></script>
-  <script src="./script.js">
-  </script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-24QFXMF42Y');
+</script>
   
   <h1 id="relic">
     Graceful Journey.xyz
@@ -32,7 +37,6 @@
   <a href="Relic-Glyph-Serif.ttf" download><p id="relic">Click here  to download the current Relic build.</p></a>
   
   
-  <script src="script.js"></script>
 
  <!--
   This script places a badge on your repl's full-browser view back to your repl's cover
