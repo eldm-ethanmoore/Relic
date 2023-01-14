@@ -1,3 +1,4 @@
+/*
 console.log(window.location.href);
 if(window.location.href === "https://www.gracefuljourney.xyz/" ||
    window.location.href === "https://gracefuljourney.xyz/")
@@ -11,3 +12,4 @@ if(window.location.href === "https://www.gracefuljourney.xyz/" ||
 } else {
   console.log("Development...")
 }
+*/
